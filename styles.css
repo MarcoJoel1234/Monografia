@@ -1,0 +1,455 @@
+.container{
+    position: absolute;
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+}
+.principal{
+    position: absolute;
+    width: 42.5%;
+    height: 42%;
+    left: 28.7%;
+    top: 8%
+}
+.izquierda-arriba{
+    position: absolute;
+    width: 20%;
+    height: 42%;
+    top: 8%;
+    left: 5%;
+}
+.derecha-arriba{
+    position: absolute;
+    width: 20%;
+    height: 42%;
+    top: 8%;
+    right: 5%;
+}
+
+.medio-izquierda1{
+    position: absolute;
+    width: 20%;
+    height: 22.5%;
+    top: 52%;
+    left: 5%;
+}
+.medio-izquierda2{
+    position: absolute;
+    width: 20%;
+    height: 22.5%;
+    top: 52%;
+    left: 28.7%;
+}
+.medio-derecha1{
+    position: absolute;
+    width: 20%;
+    height: 22.5%;
+    top: 52%;
+    right: 5%;
+}
+.medio-derecha2{
+    position: absolute;
+    width: 20%;
+    height: 22.5%;
+    top: 52%;
+    right: 28.7%;
+}
+
+.abajo-izquierda1{
+    position: absolute;
+    width: 20%;
+    height: 22.5%;
+    top: 76%;
+    left: 5%;
+}
+.abajo-izquierda2{
+    position: absolute;
+    width: 20%;
+    height: 22.5%;
+    top: 76%;
+    left: 28.7%;
+}
+.abajo-derecha1{
+    position: absolute;
+    width: 20%;
+    height: 22.5%;
+    top: 76%;
+    right: 5%;
+}
+.abajo-derecha2{
+    position: absolute;
+    width: 20%;
+    height: 22.5%;
+    top: 76%;
+    right: 28.7%;
+}
+.titulo{
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    left: 0;
+    text-align: center;
+}
+.titulo h1{
+    font-size: 2.5em;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+.imagen{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+}
+.pie-imagen{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    bottom: 0;
+    text-align: center;
+}
+.texto{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    bottom: 15%; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+}
+.imagenes{
+    position: absolute;
+    width: 100%;
+    height: 100% 
+}
+
+#texto-descripcion1{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    opacity: 0;
+    text-shadow: 2px 2px 4px #000000;
+    justify-content: center;
+}
+#texto-descripcion1:hover{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.descripcion1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: .5s;
+}
+.descripcion1:hover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 148, 7, 0.5);
+    transform: translate(1);
+}
+
+#texto-descripcion2{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    opacity: 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+#texto-descripcion2:hover{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.descripcion2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: .5s;
+}
+.descripcion2:hover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 148, 7, 0.5);
+    transform: translate(1);
+}
+
+#texto-descripcion3{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    opacity: 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+#texto-descripcion3:hover{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.descripcion3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: .5s;
+}
+.descripcion3:hover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 148, 7, 0.5);
+    transform: translate(1);
+}
+
+#texto-descripcion4{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    opacity: 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+#texto-descripcion4:hover{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.descripcion4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: .5s;
+}
+.descripcion4:hover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 148, 7, 0.5);
+    transform: translate(1);
+}
+
+#texto-descripcion5{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    font-family:Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    opacity: 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+#texto-descripcion5:hover{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.descripcion5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: .5s;
+}
+.descripcion5:hover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 148, 7, 0.5);
+    transform: translate(1);
+}
+
+#texto-descripcion6{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    opacity: 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+#texto-descripcion6:hover{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.descripcion6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: .5s;
+}
+.descripcion6:hover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 148, 7, 0.5);
+    transform: translate(1);
+}
+
+#texto-descripcion7{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    opacity: 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+#texto-descripcion7:hover{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.descripcion7{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: .5s;
+}
+.descripcion7:hover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 148, 7, 0.5);
+    transform: translate(1);
+}
+
+#texto-descripcion8{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    opacity: 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+#texto-descripcion8:hover{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.descripcion8{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: .5s;
+}
+.descripcion8:hover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 148, 7, 0.5);
+    transform: translate(1);
+}
+
+#texto-descripcion9{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    opacity: 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+#texto-descripcion9:hover{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.descripcion9{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: .5s;
+}
+.descripcion9:hover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 148, 7, 0.5);
+    transform: translate(1);
+}
+
+#texto-descripcion10{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    opacity: 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+#texto-descripcion10:hover{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.descripcion10{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: .5s;
+}
+.descripcion10:hover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 148, 7, 0.5);
+    transform: translate(1);
+}
+
+#texto-descripcion11{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    opacity: 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+#texto-descripcion11:hover{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.descripcion11{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: .5s;
+}
+.descripcion11:hover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 148, 7, 0.5);
+    transform: translate(1);
+}
